@@ -1,7 +1,7 @@
 import asyncio
 import discord
 from random import randint
-from utils.chat_formatting import esape_mass_mentions, italics, pagify
+from chat_formatting import esape_mass_mentions, italics, pagify
 from random import choice
 from discord.ext import commands
 import datetime
