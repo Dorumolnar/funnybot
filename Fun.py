@@ -2,13 +2,6 @@ import discord
 from discord.ext import commands
 from random import randint
 from random import choice
-from enum import Enum
-
-class RPS(Enum):
-    rock     = "\N{MOYAI}"
-    paper    = "\N{PAGE FACING UP}"
-    scissors = "\N{BLACK SCISSORS}"
-
 
 class RPSParser:
     def __init__(self, argument):
